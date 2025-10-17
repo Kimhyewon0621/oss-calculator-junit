@@ -46,4 +46,10 @@ class CalculatorTest {
         assertFalse(calc.isPrime(-5), "There are not negative primer numbers.");
     }
 
+    @Test
+    @DisplayName("check for CI")
+    void intentionallyFailingTestForCI() {
+        assertEquals(10, calc.add(2, 3));
+    }
+
 }
