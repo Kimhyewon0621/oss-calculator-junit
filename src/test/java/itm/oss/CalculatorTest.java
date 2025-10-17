@@ -49,7 +49,7 @@ class CalculatorTest {
     @Test
     @DisplayName("check for CI")
     void intentionallyFailingTestForCI() {
-        assertEquals(10, calc.add(2, 3));
+        assertEquals(10, calc.add(2, 8));
     }
 
 }
